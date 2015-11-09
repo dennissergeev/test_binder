@@ -1,4 +1,6 @@
 name: test
+channels:
+- scitools
 dependencies:
 - _license=1.1=py27_0
 - abstract-rendering=0.5.1=np19py27_0
