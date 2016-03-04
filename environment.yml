@@ -1,16 +1,14 @@
-name: test
+name: py35
 channels:
 - scitools
 dependencies:
+- python=3.5
 - basemap
-- beautifulsoup4
-- cartopy
 - gdal
 - iris
-- jupyter
 - matplotlib
 - numpy
-- pandas
 - scipy
-- seaborn
-- xray
+- pip:
+  - umtools
+  - git+https://github.com/dennissergeev/pyveccalc.git
