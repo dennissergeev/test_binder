@@ -4,11 +4,17 @@ channels:
 dependencies:
 - python=3.5
 - basemap
+- cartopy
+- gdal
+- iris
+- ipywidgets
+- jupyter
+- basemap
 - gdal
 - iris
 - matplotlib
 - numpy
 - scipy
 - pip:
-  - umtools
   - git+https://github.com/dennissergeev/pyveccalc.git
+  - git+https://github.com/dennissergeev/umtools.git
